@@ -6,6 +6,11 @@ import BigscoreBlogSection1 from "./BigScore-Blog-Section1/BigScore-Blog-Section
 import "./BigScore-Blog.css";
 
 class BigscoreBlog extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0);
+        document.title = "Big Score Blog";
+    }
+
     render() {
         return (
             <div>

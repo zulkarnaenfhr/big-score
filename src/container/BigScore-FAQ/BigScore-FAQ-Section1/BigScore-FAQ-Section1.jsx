@@ -35,9 +35,11 @@ class BigscoreFaqSection1 extends Component {
         return (
             <div id="BigScore FAQ-Section1">
                 <div>
-                    <h1 className="BigScoreFAQ-Section1-Title">Frequently Asked Question (FAQ)</h1>
+                    <h1 className="BigScoreFAQ-Section1-Title" data-aos="fade-up" data-aos-offset="100">
+                        Frequently Asked Question (FAQ)
+                    </h1>
                 </div>
-                <div className="BigScoreFAQ-Section1-Content-Container">
+                <div className="BigScoreFAQ-Section1-Content-Container" data-aos="fade-up" data-aos-offset="100">
                     <div>
                         <div className="row">
                             <div className="BigScore-FAQ-Section1-Collapse-Container">
@@ -45,7 +47,11 @@ class BigscoreFaqSection1 extends Component {
                                     <div className="row">
                                         <div className="col-11">Apa Itu Telco Risk</div>
                                         <div className="col-1">
-                                            <img className={this.state.faq1 === false ? "BigScore-FAQ-Section1-VectorSilang" : "BigScore-FAQ-Section1-VectorSilangRotate"} src={require("../../../src/Big-Score/Big-Score-Silang.png")} alt="" />
+                                            <img
+                                                className={this.state.faq1 === false ? "BigScore-FAQ-Section1-VectorSilang" : "BigScore-FAQ-Section1-VectorSilangRotate"}
+                                                src={require("../../../src/Big-Score/Big-Score-Silang.png")}
+                                                alt=""
+                                            />
                                         </div>
                                     </div>{" "}
                                 </button>
@@ -69,7 +75,11 @@ class BigscoreFaqSection1 extends Component {
                                     <div className="row">
                                         <div className="col-11">Apa saja fiturnya</div>
                                         <div className="col-1">
-                                            <img className={this.state.faq2 === false ? "BigScore-FAQ-Section1-VectorSilang" : "BigScore-FAQ-Section1-VectorSilangRotate"} src={require("../../../src/Big-Score/Big-Score-Silang.png")} alt="" />
+                                            <img
+                                                className={this.state.faq2 === false ? "BigScore-FAQ-Section1-VectorSilang" : "BigScore-FAQ-Section1-VectorSilangRotate"}
+                                                src={require("../../../src/Big-Score/Big-Score-Silang.png")}
+                                                alt=""
+                                            />
                                         </div>
                                     </div>{" "}
                                 </button>
@@ -91,7 +101,11 @@ class BigscoreFaqSection1 extends Component {
                                     <div className="row">
                                         <div className="col-11">Mengapa harus menggunakan produk ini</div>
                                         <div className="col-1">
-                                            <img className={this.state.faq3 === false ? "BigScore-FAQ-Section1-VectorSilang" : "BigScore-FAQ-Section1-VectorSilangRotate"} src={require("../../../src/Big-Score/Big-Score-Silang.png")} alt="" />
+                                            <img
+                                                className={this.state.faq3 === false ? "BigScore-FAQ-Section1-VectorSilang" : "BigScore-FAQ-Section1-VectorSilangRotate"}
+                                                src={require("../../../src/Big-Score/Big-Score-Silang.png")}
+                                                alt=""
+                                            />
                                         </div>
                                     </div>{" "}
                                 </button>
@@ -111,7 +125,11 @@ class BigscoreFaqSection1 extends Component {
                                     <div className="row">
                                         <div className="col-11">apa yang menjadi kelebihan produk telkom </div>
                                         <div className="col-1">
-                                            <img className={this.state.faq4 === false ? "BigScore-FAQ-Section1-VectorSilang" : "BigScore-FAQ-Section1-VectorSilangRotate"} src={require("../../../src/Big-Score/Big-Score-Silang.png")} alt="" />
+                                            <img
+                                                className={this.state.faq4 === false ? "BigScore-FAQ-Section1-VectorSilang" : "BigScore-FAQ-Section1-VectorSilangRotate"}
+                                                src={require("../../../src/Big-Score/Big-Score-Silang.png")}
+                                                alt=""
+                                            />
                                         </div>
                                     </div>{" "}
                                 </button>

@@ -3,6 +3,10 @@ import { Link } from "react-router-dom";
 import "./BigScoreRegister.css";
 
 class BigScoreRegister extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0);
+        document.title = "Big Score Register";
+    }
     render() {
         return (
             <div id="BiScoreRegister-container">

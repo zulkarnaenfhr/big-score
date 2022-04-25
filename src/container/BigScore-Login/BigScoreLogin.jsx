@@ -3,6 +3,11 @@ import { Link } from "react-router-dom";
 import "./BigScoreLogin.css";
 
 class BigScoreLogin extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0);
+        document.title = "Big Score Login";
+    }
+
     render() {
         return (
             <div id="BigScoreLogin">

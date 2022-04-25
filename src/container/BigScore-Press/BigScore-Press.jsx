@@ -6,6 +6,10 @@ import BigscorePressSection1 from "./BigScore-Press-Section1/BigScore-Press-Sect
 import "./BigScore-Press.css";
 
 class BigscorePress extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0);
+        document.title = "Big Score Press";
+    }
     render() {
         return (
             <div>

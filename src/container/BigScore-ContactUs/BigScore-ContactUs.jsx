@@ -6,6 +6,11 @@ import BigscoreContactusSection1 from "./BigScore-ContactUs-Section1/BigScore-Co
 import "./BigScore-ContactUs.css";
 
 class BigscoreContactus extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0);
+        document.title = "Contact Big Score";
+    }
+
     render() {
         return (
             <div>

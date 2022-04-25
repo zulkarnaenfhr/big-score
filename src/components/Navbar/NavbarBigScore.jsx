@@ -5,7 +5,7 @@ import "./NavbarBigScore.css";
 class Navbarbigscore extends Component {
     render() {
         return (
-            <nav id="NavbarBigScore" className="navbar navbar-expand-lg navbar-light">
+            <nav id="NavbarBigScore" className="navbar navbar-expand-lg navbar-light" data-aos="fade-in" data-aos-offset="100" data-aos-delay="0">
                 <div className="container-fluid">
                     <Link
                         className="BigScoreNavbarLogo-container"

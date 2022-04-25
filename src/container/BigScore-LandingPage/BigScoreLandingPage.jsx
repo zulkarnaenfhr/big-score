@@ -15,6 +15,10 @@ import BigscoreLandingpageSection9 from "./BigScore-LandingPage-Section9/BigScor
 import "./BigScoreLandingPage.css";
 
 class Bigscorelandingpage extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0);
+        document.title = "Big Score Landing Page";
+    }
     render() {
         return (
             <div id="BigScoreLandingPage">

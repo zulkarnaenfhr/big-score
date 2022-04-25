@@ -6,6 +6,10 @@ import BigscoreFaqSection1 from "./BigScore-FAQ-Section1/BigScore-FAQ-Section1";
 import "./BigScore-FAQ.css";
 
 class BigscoreFaq extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0);
+        document.title = "Big Score FAQ";
+    }
     render() {
         return (
             <div>

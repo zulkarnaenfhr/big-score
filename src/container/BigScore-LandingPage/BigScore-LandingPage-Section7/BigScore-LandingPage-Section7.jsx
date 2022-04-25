@@ -6,8 +6,10 @@ class BigscoreLandingpageSection7 extends Component {
         return (
             <div id="BigScoreLandingPage-Section7">
                 <div className="BigScoreLandingPage-Section7-Content-Container">
-                    <h1 className="BigScoreLandingPage-Section7-Title">How Big Score Work</h1>
-                    <div className="BigScoreLandingPage-Section7-Vector-Container">
+                    <h1 className="BigScoreLandingPage-Section7-Title" data-aos="fade-up" data-aos-offset="100">
+                        How Big Score Work
+                    </h1>
+                    <div className="BigScoreLandingPage-Section7-Vector-Container" data-aos="fade-up" data-aos-offset="400">
                         <img src={require("../../../src/Big-Score/LandingPage/Section7-Vector1.png")} className="BigScoreLandingPage-Section7-Vector1" alt="" />
                         <img src={require("../../../src/Big-Score/LandingPage/Section7-Panah1.png")} className="BigScoreLandingPage-Section7-Panah1" alt="" />
                         <img src={require("../../../src/Big-Score/LandingPage/Section7-Vector2.png")} className="BigScoreLandingPage-Section7-Vector2" alt="" />

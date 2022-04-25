@@ -9,6 +9,10 @@ import BigscoreAboutusSection4 from "./BigScore-AboutUs-Section4/BigScore-AboutU
 import "./BigScoreAboutUs.css";
 
 class Bigscoreaboutus extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0);
+        document.title = "Big Score About Us";
+    }
     render() {
         return (
             <div id="BigScoreAboutUs">

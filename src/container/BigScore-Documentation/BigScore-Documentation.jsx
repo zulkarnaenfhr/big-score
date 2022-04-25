@@ -6,6 +6,11 @@ import BigscoreDocumentationSection1 from "./BigScore-Documentation-Section1/Big
 import "./BigScore-Documentation.css";
 
 class BigscoreDocumentation extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0);
+        document.title = "Big Score Documentation";
+    }
+
     render() {
         return (
             <div>

@@ -6,10 +6,12 @@ class BigscoreAboutusSection3 extends Component {
         return (
             <div id="BigScoreAboutUs-Section3">
                 <div className="BigScoreAboutUs-Section3-Content-Container">
-                    <h1 className="BigScoreAboutUs-Section3-Title">Our Benefit</h1>
-                    <img src={require("../../../src/Big-Score/AboutUs/Section3-Vector.png")} alt="" className="BigScoreAboutUs-Section3-Vector" />
+                    <h1 data-aos="fade-right" data-aos-offset="100" className="BigScoreAboutUs-Section3-Title">
+                        Our Benefit
+                    </h1>
+                    <img data-aos="fade-left" data-aos-offset="300" src={require("../../../src/Big-Score/AboutUs/Section3-Vector.png")} alt="" className="BigScoreAboutUs-Section3-Vector" />
                     <div className="BigScoreAboutUs-Section3-List-Container">
-                        <div className="row BigScoreAboutUs-Section3-List-Row1">
+                        <div className="row BigScoreAboutUs-Section3-List-Row1" data-aos="fade-up" data-aos-offset="100">
                             <div className="col-1">
                                 <img src={require("../../../src/Big-Score/Big-Score-Checklist.png")} alt="" className="BigScoreAboutUs-Section3-Checklist" />
                             </div>
@@ -17,7 +19,7 @@ class BigscoreAboutusSection3 extends Component {
                                 <p className="BigScoreAboutUs-Section3-List-Text">Sebagai informasi alternatif lain ketika bank atau multifinance membutuhkan informasi kelayakan pinjaman kepada calon nasabah</p>
                             </div>
                         </div>
-                        <div className="row BigScoreAboutUs-Section3-List-Row2">
+                        <div className="row BigScoreAboutUs-Section3-List-Row2" data-aos="fade-up" data-aos-offset="100">
                             <div className="col-1">
                                 <img src={require("../../../src/Big-Score/Big-Score-Checklist.png")} alt="" className="BigScoreAboutUs-Section3-Checklist" />
                             </div>
@@ -27,7 +29,7 @@ class BigscoreAboutusSection3 extends Component {
                                 </p>
                             </div>
                         </div>
-                        <div className="row BigScoreAboutUs-Section3-List-Row3">
+                        <div className="row BigScoreAboutUs-Section3-List-Row3" data-aos="fade-up" data-aos-offset="100">
                             <div className="col-1">
                                 <img src={require("../../../src/Big-Score/Big-Score-Checklist.png")} alt="" className="BigScoreAboutUs-Section3-Checklist" />
                             </div>
@@ -35,7 +37,7 @@ class BigscoreAboutusSection3 extends Component {
                                 <p className="BigScoreAboutUs-Section3-List-Text">Memperkaya data referensi pelanggan dan memberikan analisa secara household centric</p>
                             </div>
                         </div>
-                        <div className="row BigScoreAboutUs-Section3-List-Row4">
+                        <div className="row BigScoreAboutUs-Section3-List-Row4" data-aos="fade-up" data-aos-offset="100">
                             <div className="col-1">
                                 <img src={require("../../../src/Big-Score/Big-Score-Checklist.png")} alt="" className="BigScoreAboutUs-Section3-Checklist" />
                             </div>

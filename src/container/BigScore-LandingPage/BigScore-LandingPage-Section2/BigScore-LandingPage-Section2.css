@@ -56,6 +56,13 @@
     line-height: 24px;
     text-align: center;
     color: #ffffff;
+    transition: all 0.4s ease-in-out;
+}
+
+.BigScoreLandingPage-Section2-Button:hover {
+    background-color: white;
+    color: #f06522;
+    border: 1px solid #f06522;
 }
 
 @media screen and (max-width: 1440px) {

@@ -6,19 +6,25 @@ class BigscoreLandingpageSection1 extends Component {
     render() {
         return (
             <div id="BigScoreLandingPage-Section1">
-                <img src={require("../../../src/Big-Score/LandingPage/Section1-Vector.png")} className={"BigScoreLandingPage-Section1-Vector"} />
+                <img data-aos="fade-left" data-aos-offset="100" src={require("../../../src/Big-Score/LandingPage/Section1-Vector.png")} className={"BigScoreLandingPage-Section1-Vector"} />
                 <div className="BigScoreLandingPage-Section1-Title-Container">
-                    <h1 className="BigScoreLandingPage-Section1-Title1">Big Score</h1>
-                    <h1 className="BigScoreLandingPage-Section1-Title2">Bring The Most of AI Together</h1>
+                    <h1 className="BigScoreLandingPage-Section1-Title1" data-aos="fade-down-right" data-aos-offset="100">
+                        Big Score
+                    </h1>
+                    <h1 className="BigScoreLandingPage-Section1-Title2" data-aos="fade-right" data-aos-offset="100">
+                        Bring The Most of AI Together
+                    </h1>
                 </div>
-                <Link
-                    className="BigScoreLandingPage-Section1-Button-Container"
-                    to={{
-                        pathname: `notset`,
-                    }}
-                >
-                    <button className="BigScoreLandingPage-Section1-Button">Free Trial</button>
-                </Link>
+                <div data-aos="fade-up-right" data-aos-offset="100">
+                    <Link
+                        className="BigScoreLandingPage-Section1-Button-Container"
+                        to={{
+                            pathname: `notset`,
+                        }}
+                    >
+                        <button className="BigScoreLandingPage-Section1-Button">Free Trial</button>
+                    </Link>
+                </div>
             </div>
         );
     }

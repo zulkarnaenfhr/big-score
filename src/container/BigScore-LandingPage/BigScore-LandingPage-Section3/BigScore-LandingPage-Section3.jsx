@@ -6,11 +6,11 @@ class BigscoreLandingpageSection3 extends Component {
         return (
             <div id="BigScoreLandingPage-Section3">
                 <div className="BigScoreLandingPage-Section3-Content-Container">
-                    <h1 className="BigScoreLandingPage-Section3-Title">
+                    <h1 className="BigScoreLandingPage-Section3-Title" data-aos="fade-up" data-aos-offset="100">
                         Why Do We Need <br />
                         Big Score
                     </h1>
-                    <div className="row BigScoreLandingPage-Section3-Content-SecondRow">
+                    <div className="row BigScoreLandingPage-Section3-Content-SecondRow" data-aos="fade-up" data-aos-offset="100">
                         <div className="col-6">
                             <div className="row BigScoreLandingPage-Section3-Content-Left">
                                 <div className="col-2">

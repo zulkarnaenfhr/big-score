@@ -5,7 +5,9 @@ class BigscoreAboutusSection4 extends Component {
     render() {
         return (
             <div id="BigScoreAboutUs-Section4">
-                <h1 className="BigScoreAboutUs-Section4-Title">Meet Our Team</h1>
+                <h1 data-aos="fade-up" data-aos-offset="100" className="BigScoreAboutUs-Section4-Title">
+                    Meet Our Team
+                </h1>
             </div>
         );
     }

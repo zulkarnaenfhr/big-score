@@ -6,6 +6,10 @@ import BigscoreAboutcompanySection1 from "./BigScore-AboutCompany-Section1/BigSc
 import "./BigScore-AboutCompany.css";
 
 class BigscoreAboutcompany extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0);
+        document.title = "Big Score About Company";
+    }
     render() {
         return (
             <div>
