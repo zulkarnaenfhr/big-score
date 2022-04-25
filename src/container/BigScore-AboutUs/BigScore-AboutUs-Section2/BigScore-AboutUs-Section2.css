@@ -1,0 +1,119 @@
+#BigScoreAboutUs-Section2 {
+    width: 100vw;
+    height: 900px;
+    position: relative;
+    background: #515252;
+}
+
+.BigScoreAboutUs-Section2-Vector {
+    position: absolute;
+    width: 500px;
+    height: 486.69px;
+    left: 147px;
+    top: 257px;
+}
+
+.BigScoreAboutUs-Section2-Title-Container {
+    position: absolute;
+    width: 936px;
+    left: 683px;
+    top: 150.5px;
+}
+
+.BigScoreAboutUs-Section2-Title1 {
+    font-family: poppins-700;
+    font-size: 69px;
+    line-height: 100px;
+    color: #ffffff;
+}
+
+.BigScoreAboutUs-Section2-Title2 {
+    font-family: poppins-700;
+    font-size: 90px;
+    line-height: 100px;
+    color: #ffffff;
+    margin-top: -13px;
+}
+
+.BigScoreAboutUs-Section2-Text {
+    position: absolute;
+    width: 603px;
+    height: 120px;
+    left: 703px;
+    top: 405px;
+    font-family: poppins-400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.BigScoreAboutUs-Section2-List-Container {
+    width: 604px;
+    height: 50px;
+    position: absolute;
+    left: 703px;
+    top: 555px;
+}
+
+.BigScoreAboutUs-Section2-Checklist {
+    width: 24px;
+    height: 24px;
+}
+
+.BigScoreAboutUs-Section2-List-Title {
+    width: 136px;
+    height: 30px;
+    font-family: poppins-500;
+    font-size: 36px;
+    line-height: 30px;
+    color: #f06522;
+}
+
+.BigScoreAboutUs-Section2-List-Desc {
+    font-family: poppins-400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.BigScoreAboutUs-Section2-List-Row2 {
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 1440px) {
+    .BigScoreAboutUs-Section2-Content-Container {
+        transform: scale(0.9);
+    }
+    .BigScoreAboutUs-Section2-Vector {
+        left: 100px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1300px) {
+    .BigScoreAboutUs-Section2-Content-Container {
+        transform: scale(0.9);
+    }
+    .BigScoreAboutUs-Section2-Vector {
+        left: 50px;
+    }
+
+    .BigScoreAboutUs-Section2-Title-Container {
+        transform: scale(0.9);
+        left: 550px;
+    }
+    .BigScoreAboutUs-Section2-Text {
+        left: 620px;
+    }
+    .BigScoreAboutUs-Section2-List-Container {
+        left: 620px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+}
+
+@media screen and (max-width: 1100px) {
+}

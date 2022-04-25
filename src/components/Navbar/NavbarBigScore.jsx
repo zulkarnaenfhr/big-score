@@ -13,7 +13,7 @@ class Navbarbigscore extends Component {
                             pathname: `/big-score`,
                         }}
                     >
-                        <img className="BigScoreNavbarLogo" src={require("../../\src/Big-Score/Big-Score-Logo.png")} />
+                        <img className="BigScoreNavbarLogo" src={require("../../src/Big-Score/Big-Score-Logo.png")} />
                     </Link>
 
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,7 +62,7 @@ class Navbarbigscore extends Component {
                                             <Link
                                                 className="BigScoreDropdown-menu-Resources"
                                                 to={{
-                                                    pathname: `/big-score/faq`,
+                                                    pathname: `/big-score/FAQ`,
                                                 }}
                                             >
                                                 <p>FAQ</p>
@@ -132,7 +132,7 @@ class Navbarbigscore extends Component {
                                 <Link
                                     className="BigScoreButtonFreeTrial-container"
                                     to={{
-                                        pathname: `notset`,
+                                        pathname: `/big-score/login`,
                                     }}
                                 >
                                     <button className="BigScoreButtonNavbar BigScoreButtonFreeTrial">FREE TRIAL</button>
@@ -140,7 +140,7 @@ class Navbarbigscore extends Component {
                                 <Link
                                     className="BigScoreButtonDemoApps-container"
                                     to={{
-                                        pathname: `notset`,
+                                        pathname: `/big-score/login`,
                                     }}
                                 >
                                     <button className="BigScoreButtonNavbar BigScoreButtonDemoApps">DEMO APPS</button>

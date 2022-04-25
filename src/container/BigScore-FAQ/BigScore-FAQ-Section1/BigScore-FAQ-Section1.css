@@ -1,0 +1,104 @@
+#BigScoreFAQ-Section1 {
+    min-height: 739px;
+}
+
+.BigScoreFAQ-Section1-Title {
+    height: 75px;
+    font-family: poppins-800;
+    font-size: 50px;
+    line-height: 75px;
+    text-align: center;
+    color: #2a9c94;
+    padding-top: 160px;
+}
+
+.BigScoreFAQ-Section1-Content-Container {
+    margin-top: 135px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.BigScore-FAQ-Section1-Collapse-Container {
+    width: 920px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #f06522;
+    color: #f06522;
+}
+
+.BigScore-FAQ-Section1-Collapse-Container > button {
+    height: 75px;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: #f06522;
+    font-size: 27px;
+    font-family: nunitoSans-700;
+    letter-spacing: 0.04em;
+    text-align: left;
+    padding-top: 10px;
+    text-transform: capitalize;
+}
+
+.divCollapse {
+    margin-left: 34px;
+    margin-right: 34px;
+    height: calc(auto + 34px);
+}
+
+.divCollapse-Container {
+    font-family: poppins-400;
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
+.divCollapse-Container > .question1-p {
+    font-style: italic;
+}
+
+.divCollapse-Container > .question2-p {
+    font-family: nunitosans-600;
+    font-size: 20px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    letter-spacing: 0.005em;
+    color: #000000;
+}
+
+.BigScore-FAQ-Section1-VectorSilang {
+    width: 16px;
+    height: 16px;
+}
+
+.BigScore-FAQ-Section1-VectorSilangRotate {
+    width: 16px;
+    height: 16px;
+    transform: rotate(-45deg);
+}
+
+@media screen and (max-width: 1440px) {
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1300px) {
+    .BigScoreFAQ-Section1-Content-Container {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+}
+
+@media screen and (max-width: 1100px) {
+}

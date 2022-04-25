@@ -1,0 +1,169 @@
+#BigScoreLogin {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+
+/* container-left */
+
+.BigScoreLogin-content-contaienr-left {
+    width: 54.5%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.BigScoreLogin-content-container-left-Hello {
+    font-family: poppins-700;
+    font-size: 50px;
+    line-height: 70px;
+    text-align: center;
+    color: #000;
+}
+
+.BigScoreLogin-content-container-left-Hello2 {
+    font-family: poppins-400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #000;
+}
+
+.BigScoreLogin-input {
+    width: 450px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #5c5c5c;
+}
+
+.BigScoreLogin-input::placeholder {
+    font-family: poppins-500;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: #adadad;
+    padding-bottom: 20px;
+}
+
+.BigScoreLogin-input1,
+.BigScoreLogin-input2 {
+    margin-top: 30px;
+    padding-bottom: 10px;
+}
+
+.BigScoreLogin-ForgetPass-container {
+    text-decoration: none;
+}
+
+.BigScoreLogin-ForgetPass {
+    text-align: right;
+    font-family: poppins-400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000;
+    transition: all 0.3 ease-in-out;
+}
+
+.BigScoreLogin-ForgetPass:hover {
+    color: #5a69b7;
+}
+
+.BigSocreLogin-ButonSubmit {
+    width: 450px;
+    height: 60px;
+    background: rgba(240, 101, 34, 1);
+    border-radius: 30px;
+    border: 1px solid transparent;
+    font-family: poppins-500;
+    font-size: 18px;
+    color: #fff;
+}
+
+.BigScoreLogin-Or {
+    margin-top: 24px;
+    font-family: poppins-400;
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-column-gap: 1.2rem;
+    align-items: center;
+}
+
+.BigScoreLogin-Or::before,
+.BigScoreLogin-Or::after {
+    content: "";
+    display: block;
+    height: .5px;
+    background-color: currentColor;
+}
+
+.BigScoreLogin-ButtonGoogle {
+    font-family: poppins-500;
+    width: 450px;
+    height: 60px;
+    background: white;
+    border: 1px solid rgba(240, 101, 34, 1);
+    border-radius: 30px;
+    margin-top: 24px;
+}
+
+.BigScoreLogin-SignUp {
+    font-family: poppins-400;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.BigScoreLogin-SignUp span {
+    text-decoration: underline;
+    text-decoration-color: rgba(240, 101, 34, 1);
+    color: rgba(240, 101, 34, 1);
+}
+
+
+/* ccontainer-right */
+
+.BigScoreLogin-container-right {
+    width: 45.5%;
+    display: flex;
+    background: linear-gradient(90deg, #404040 5.21%, rgba(81, 82, 82, 0) 31.77%, rgba(81, 82, 82, 0) 67.71%, #404040 94.79%);
+    background-color: #5e5e5e;
+}
+
+.BigScoreLogin-content-container-right {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto 0;
+}
+
+.BigScoreLogin-content-right-vector-container {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.BigScoreLogin-content-right-Title {
+    width: auto;
+    height: 140px;
+    margin-left: 80px;
+    margin-top: 45px;
+    font-family: poppins-700;
+    font-size: 50px;
+    line-height: 70px;
+    text-align: left;
+    color: white;
+}
+
+.BigScoreLogin-content-right-vector {
+    width: 65%;
+    height: auto;
+}
+
+.BigScoreLogin-content-right-vector-container {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}

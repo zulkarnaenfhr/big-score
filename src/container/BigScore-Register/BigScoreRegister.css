@@ -1,0 +1,107 @@
+#BiScoreRegister-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+
+/* BiScoreRegister-container-left  */
+
+.BiScoreRegister-container-left {
+    width: 54.5%;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.BiScoreRegister-content-container-left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.BigScoreRegister-content-header-left {
+    font-family: poppins-700;
+    font-size: 50px;
+    line-height: 70px;
+}
+
+.BiScoreRegister-input {
+    width: 450px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid rgba(92, 92, 92, 1);
+    margin-top: 30px;
+    padding: 5px 0 5px 15px;
+}
+
+.BiScoreRegister-input::placeholder {
+    font-family: Poppins-500;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: #adadad;
+}
+
+.BiScoreRegister-Button-Signin {
+    width: 450px;
+    height: 60px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    margin: 20px 0px;
+    background-color: rgba(240, 101, 34, 1);
+    color: white;
+}
+
+.BigScoreRegister-Login {
+    font-family: Poppins-400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.BigScoreRegister-Login span {
+    text-decoration: underline;
+    text-decoration-color: rgba(240, 101, 34, 1);
+    color: rgba(240, 101, 34, 1);
+}
+
+
+/* BiScoreRegister-container-right */
+
+.BiScoreRegister-container-right {
+    width: 45.5%;
+    display: flex;
+    background: linear-gradient(90deg, #404040 5.21%, rgba(81, 82, 82, 0) 31.77%, rgba(81, 82, 82, 0) 67.71%, #404040 94.79%);
+    background-color: #5e5e5e;
+    align-items: center;
+    text-align: center;
+}
+
+.BiScoreRegister-content-container-right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.BiScoreRegister-content-right-Title {
+    width: auto;
+    height: 140px;
+    margin-left: 80px;
+    margin-top: 45px;
+    font-family: poppins-700;
+    font-size: 50px;
+    line-height: 70px;
+    text-align: left;
+    color: white;
+}
+
+.BiScoreRegister-content-right-vector-container {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.BigScoreRegister-content-right-vector {
+    width: 65%;
+    height: auto;
+}

@@ -1,0 +1,98 @@
+#BigScoreAboutUs-Section1 {
+    height: 1000px;
+    width: 100vw;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.BigScoreAboutUs-Section1-Container-Content {
+    width: 1240px;
+    height: 650px;
+    position: absolute;
+    top: 200px;
+}
+
+.BigScoreAboutUs-Section1-Title {
+    font-family: poppins-700;
+    font-size: 90px;
+    line-height: 100px;
+    color: #2a9c94;
+    position: absolute;
+    top: 11px;
+}
+
+.BigScoreAboutUs-Section1-Text1 {
+    position: absolute;
+    width: 604px;
+    height: 144px;
+    left: 0px;
+    top: 171px;
+    font-family: poppins-300;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.BigScoreAboutUs-Section1-Desc-Quotes {
+    position: absolute;
+    width: 57px;
+    height: 157px;
+    left: 0px;
+    top: 298px;
+}
+
+.BigScoreAboutUs-Section1-Desc {
+    position: absolute;
+    width: 542px;
+    height: 90px;
+    left: 62px;
+    top: 365px;
+    font-family: poppins-500;
+    font-size: 36px;
+    line-height: 45px;
+    color: #f3682e;
+}
+
+.BigScoreAboutUs-Section1-Text2 {
+    position: absolute;
+    width: 604px;
+    height: 144px;
+    left: 0px;
+    top: 505px;
+    font-family: poppins-300;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.BigScoreAboutUs-Section1-Vector2 {
+    position: absolute;
+    width: 550px;
+    height: 558.84px;
+    left: 690px;
+    top: 46px;
+}
+
+@media screen and (max-width: 1440px) {
+    .BigScoreAboutUs-Section1-Vector2 {
+        transform: scale(0.9);
+    }
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1300px) {
+    .BigScoreAboutUs-Section1-Container-Content {
+        transform: scale(0.9);
+        top: 155px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+}
+
+@media screen and (max-width: 1100px) {
+}
