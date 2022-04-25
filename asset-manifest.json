@@ -1,16 +1,41 @@
 {
   "files": {
-    "main.css": "/big-score/static/css/main.073c9b0a.css",
-    "main.js": "/big-score/static/js/main.7a4c06ea.js",
+    "main.css": "/big-score/static/css/main.be2380d4.css",
+    "main.js": "/big-score/static/js/main.9ff28cce.js",
     "static/js/787.b7ca8daa.chunk.js": "/big-score/static/js/787.b7ca8daa.chunk.js",
-    "static/media/logo.svg": "/big-score/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Section3-Vector.png": "/big-score/static/media/Section3-Vector.d76be5a7ff63475baa9c.png",
+    "static/media/Section2-Vector.png": "/big-score/static/media/Section2-Vector.84101088b42a5281d012.png",
+    "static/media/Section6-Vector.png": "/big-score/static/media/Section6-Vector.19f876edc0a4de16e5fd.png",
+    "static/media/Section1-Vector.png": "/big-score/static/media/Section1-Vector.ea31fcf19849f7bfe862.png",
+    "static/media/Section4-Vector.png": "/big-score/static/media/Section4-Vector.2dd9377c573e6123be3e.png",
+    "static/media/Section1-Vector2.png": "/big-score/static/media/Section1-Vector2.40025757296fa49646c5.png",
+    "static/media/Right-Vector.png": "/big-score/static/media/Right-Vector.afd69de035cd8bd96bf6.png",
+    "static/media/BigScoreLogo Right.png": "/big-score/static/media/BigScoreLogo Right.b094eeda8833c322e8f0.png",
+    "static/media/Poppins-Light.ttf": "/big-score/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
+    "static/media/Poppins-Regular.ttf": "/big-score/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/Poppins-Medium.ttf": "/big-score/static/media/Poppins-Medium.673ed42382ab264e0bf5.ttf",
+    "static/media/Poppins-Bold.ttf": "/big-score/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
+    "static/media/Poppins-ExtraBold.ttf": "/big-score/static/media/Poppins-ExtraBold.01849ee091e1762a5dd5.ttf",
+    "static/media/Poppins-Black.ttf": "/big-score/static/media/Poppins-Black.d8b850b920a5ef49d752.ttf",
+    "static/media/NunitoSans-ExtraBold.ttf": "/big-score/static/media/NunitoSans-ExtraBold.910c4685fbefaf7b5410.ttf",
+    "static/media/NunitoSans-Bold.ttf": "/big-score/static/media/NunitoSans-Bold.f2f18c2e01d2f39c18c9.ttf",
+    "static/media/NunitoSans-SemiBold.ttf": "/big-score/static/media/NunitoSans-SemiBold.19a4b6461d900f20a9a6.ttf",
+    "static/media/Section9-LogoKredivo.png": "/big-score/static/media/Section9-LogoKredivo.8f436c1c53bb118ce5bd.png",
+    "static/media/Section7-Vector4.png": "/big-score/static/media/Section7-Vector4.3d6bff8568b3d6c605fb.png",
+    "static/media/Section9-LogoFinneos.png": "/big-score/static/media/Section9-LogoFinneos.6a6bf0de488aae038e60.png",
+    "static/media/Section9-LogoTelkom.png": "/big-score/static/media/Section9-LogoTelkom.995d8d0063c5f8d8ec36.png",
+    "static/media/Big-Score-Logo.png": "/big-score/static/media/Big-Score-Logo.8bd8ee588882999afac6.png",
+    "static/media/Section7-Vector3.png": "/big-score/static/media/Section7-Vector3.e3dbadd7b7697ced8d98.png",
+    "static/media/Section7-Vector5.png": "/big-score/static/media/Section7-Vector5.46711de0c59cbc556143.png",
+    "static/media/Section7-Vector1.png": "/big-score/static/media/Section7-Vector1.abd6cff5181a3ac3d868.png",
+    "static/media/Section7-Vector2.png": "/big-score/static/media/Section7-Vector2.f281f5a99e52c347b5cc.png",
     "index.html": "/big-score/index.html",
-    "main.073c9b0a.css.map": "/big-score/static/css/main.073c9b0a.css.map",
-    "main.7a4c06ea.js.map": "/big-score/static/js/main.7a4c06ea.js.map",
+    "main.be2380d4.css.map": "/big-score/static/css/main.be2380d4.css.map",
+    "main.9ff28cce.js.map": "/big-score/static/js/main.9ff28cce.js.map",
     "787.b7ca8daa.chunk.js.map": "/big-score/static/js/787.b7ca8daa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.7a4c06ea.js"
+    "static/css/main.be2380d4.css",
+    "static/js/main.9ff28cce.js"
   ]
 }
