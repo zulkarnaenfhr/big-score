@@ -1,0 +1,116 @@
+#BigScoreLandingPage-Section6 {
+    width: 100vw;
+    height: 812px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.BigScoreLandingPage-Section6-Content-Container {
+    width: 1240px;
+    height: 600px;
+    margin-top: 155px;
+    position: relative;
+}
+
+.BigScoreLandingPage-Section6-Vector {
+    position: absolute;
+    width: 600px;
+    height: 545.73px;
+    left: 0px;
+    top: 27px;
+}
+
+.BigScoreLandingPage-Section6-Title {
+    position: absolute;
+    width: 449px;
+    height: 150px;
+    left: 636px;
+    top: 35px;
+    font-family: poppins-800;
+    font-size: 50px;
+    line-height: 75px;
+    color: #2a9c94;
+}
+
+.BigScoreLandingPage-Section6-List-Container {
+    position: absolute;
+    left: 636px;
+    top: 236px;
+}
+
+.BigScoreLandingPage-Section6-rowChecklist {
+    width: 546px;
+}
+
+.BigScoreLandingPage-Section6-rowChecklist2 {
+    margin-top: 6px;
+}
+
+.BigScoreLandingPage-Section6-rowChecklist3 {
+    margin-top: 6px;
+}
+
+.BigScoreLandingPage-Section6-rowChecklist4 {
+    margin-top: 6px;
+}
+
+.BigScoreLandingPage-Section6-rowChecklist5 {
+    margin-top: 6px;
+}
+
+.BigScoreLandingPage-Section6-Checklist {
+    width: 24px;
+    height: 24px;
+}
+
+.BigScoreLandingPage-Section6-Text-List {
+    font-family: poppins-400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 3px;
+}
+
+.BigScoreLandingPage-Section6-Button {
+    width: 150px;
+    height: 60px;
+    color: white;
+    background: #f06522;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    font-family: poppins-700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 26px;
+    transition: all 0.3s ease-in-out;
+}
+
+.BigScoreLandingPage-Section6-Button:hover {
+    background-color: white;
+    border: 1px solid #f06522;
+    color: #f06522;
+}
+
+@media screen and (max-width: 1440px) {
+    .BigScoreLandingPage-Section6-Vector {
+        transform: scale(0.9);
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .BigScoreLandingPage-Section6-Content-Container {
+        transform: scale(0.9);
+    }
+}
+
+@media screen and (max-width: 1300px) {
+}
+
+@media screen and (max-width: 1150px) {
+}
+
+@media screen and (max-width: 1100px) {
+}

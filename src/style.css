@@ -1,0 +1,57 @@
+@font-face {
+    font-family: poppins-300;
+    src: url("src/font/Poppins/Poppins-Light.ttf");
+}
+
+@font-face {
+    font-family: poppins-400;
+    src: url("src/font/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: poppins-500;
+    src: url("src/font/Poppins/Poppins-Medium.ttf");
+}
+
+@font-face {
+    font-family: poppins-700;
+    src: url("src/font/Poppins/Poppins-Bold.ttf");
+}
+
+@font-face {
+    font-family: poppins-800;
+    src: url("src/font/Poppins/Poppins-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: poppins-900;
+    src: url("src/font/Poppins/Poppins-Black.ttf");
+}
+
+@font-face {
+    font-family: nunitoSans-700;
+    src: url("src/font/Nunito_Sans/NunitoSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: nunitoSans-600;
+    src: url("src/font/Nunito_Sans/NunitoSans-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: nunitoSans-900;
+    src: url("src/font/Nunito_Sans/NunitoSans-ExtraBold.ttf");
+}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0; /* Remove scrollbar space */
+    background: transparent; /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #ff0000;
+}

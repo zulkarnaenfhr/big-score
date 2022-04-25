@@ -1,0 +1,85 @@
+#BigScoreLandingPage-Section2 {
+    width: 100vw;
+    height: 700px;
+    display: flex;
+}
+
+.BigScoreLandingPage-Section2-container {
+    position: absolute;
+    width: 100vw;
+    height: 580px;
+    margin-top: 60px;
+}
+
+.BigScoreLandingPage-Section2-Title {
+    position: absolute;
+    width: 100vw;
+    font-family: poppins-800;
+    font-size: 50px;
+    line-height: 75px;
+    text-align: center;
+    color: #2a9c94;
+}
+
+.BigScoreLandingPage-Section2-Vector {
+    width: 600px;
+    height: 437.22px;
+    left: 146px;
+    top: 133px;
+    position: absolute;
+}
+
+.BigScoreLandingPage-Section2-TextandButton-Container {
+    position: absolute;
+    top: 270px;
+    left: 781px;
+}
+
+.BigScoreLandingPage-Section2-Text {
+    width: 424px;
+    height: 120px;
+    font-family: poppins-400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.BigScoreLandingPage-Section2-Button {
+    margin-top: 20px;
+    width: 150px;
+    height: 60px;
+    background: #f06522;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    font-family: poppins-700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 1440px) {
+    .BigScoreLandingPage-Section2-Vector {
+        transform: scale(0.9);
+    }
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1300px) {
+    .BigScoreLandingPage-Section2-Vector {
+        transform: scale(0.8);
+        left: 90px;
+    }
+
+    .BigScoreLandingPage-Section2-TextandButton-Container {
+        left: 701px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+}
+
+@media screen and (max-width: 1100px) {
+}

@@ -1,0 +1,10 @@
+.BigScore-navbar-container {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    z-index: 3;
+}

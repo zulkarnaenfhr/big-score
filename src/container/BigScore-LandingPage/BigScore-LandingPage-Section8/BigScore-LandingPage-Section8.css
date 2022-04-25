@@ -1,0 +1,13 @@
+#BigScoreLandingPage-Section8 {
+    width: 100vw;
+    height: 715px;
+}
+
+.BigScoreLandingPage-Section8-Title {
+    font-family: poppins-800;
+    font-size: 50px;
+    line-height: 75px;
+    color: #2a9c94;
+    text-align: center;
+    padding-top: 66px;
+}

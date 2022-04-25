@@ -1,0 +1,76 @@
+#BigScoreLandingPage-Section9 {
+    width: 100vw;
+    height: 575px;
+    display: flex;
+    justify-content: center;
+}
+
+.BigScoreLandingPage-Section9-Content-Container {
+    width: 1240px;
+    height: 400px;
+    position: relative;
+    background: #515252;
+    border-radius: 70px 0px;
+}
+
+.BigScoreLandingPage-Section9-Content-Container-Title {
+    position: relative;
+    top: 80px;
+    font-family: poppins-800;
+    font-size: 50px;
+    line-height: 75px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.BigScoreLandingPage-Section9-Content-Container-Logo-Container {
+    position: absolute;
+    width: 900px;
+    height: 125px;
+    left: 170px;
+    top: 195px;
+    background: #ffffff;
+    border-radius: 82px;
+    display: flex;
+    align-items: center;
+}
+
+.BigScoreLandingPage-Section9-LogoTelkom {
+    position: relative;
+    width: 132.97px;
+    height: 80px;
+    margin-left: 92px;
+}
+
+.BigScoreLandingPage-Section9-LogoKredivo {
+    width: 190px;
+    height: 80px;
+    margin-left: 80px;
+}
+
+.BigScoreLandingPage-Section9-LogoFinneos {
+    width: 232.97px;
+    height: 80px;
+    margin-left: 80px;
+}
+
+@media screen and (max-width: 1440px) {
+    .BigScoreLandingPage-Section9-Content-Container {
+        transform: scale(0.9);
+    }
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1300px) {
+    .BigScoreLandingPage-Section9-Content-Container {
+        transform: scale(0.8);
+    }
+}
+
+@media screen and (max-width: 1150px) {
+}
+
+@media screen and (max-width: 1100px) {
+}

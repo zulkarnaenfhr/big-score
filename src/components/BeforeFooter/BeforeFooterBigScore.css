@@ -1,0 +1,98 @@
+#BeforeFooterBigScore {
+    height: 456px;
+    padding-left: 157px;
+    background-color: #f7f7f7;
+}
+
+.BeforeFooterBigScore-SPL-Logo {
+    width: 249.73px;
+    height: 105px;
+    margin-top: 55px;
+    margin-left: -20px;
+}
+
+.BeforeFooterBigScore-SPL-ColLeft-Row1 {
+    width: 329px;
+    margin-top: 23px;
+    font-family: poppins-700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #484848;
+}
+
+.BeforeFooterBigScore-SPL-ColLeft-Row2 {
+    font-family: poppins-400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 30px;
+}
+
+.BeforeFooterBigScore-SPL-ColLeft-Row3 {
+    margin-top: -9px;
+    font-family: poppins-400;
+    font-size: 16px;
+}
+
+.BeforeFooterBigScore-SPL-ColLeft-Row4 {
+    font-family: poppins-400;
+    font-size: 16px;
+}
+
+.BeforeFooterBigScore-SPL-ColMid-Row1 {
+    width: 329px;
+    margin-top: 23px;
+    font-family: poppins-700;
+    font-size: 16px;
+    line-height: 27px;
+    color: #484848;
+}
+
+.BeforeFooterBigScore-SPL-ColMid-Row1 i {
+    font-size: 27px;
+    margin-top: 12px;
+    margin-right: 9.9px;
+}
+
+.BeforeFooterBigScore-SPL-ColMid-Row2 {
+    width: 329px;
+    margin-top: 23px;
+    font-family: poppins-400;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.BeforeFooterBigScore-SPL-ColMid-Row3 {
+    width: 329px;
+    height: 38px;
+    margin-top: 46px;
+    font-family: poppins-400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.BeforeFooterBigScore-SPL-RightMid {
+    width: 318px;
+    height: 230px;
+}
+
+.BeforeFooterBigScore-Content-Container {
+    display: flex;
+}
+
+.BeforeFooterBigScore-Content-Left {
+    display: flex;
+}
+
+.BeforeFooterBigScore-Content-Mid {
+    display: flex;
+}
+
+@media screen and (max-width: 1440px) {
+    #BeforeFooterBigScore {
+        padding-left: 100px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+}

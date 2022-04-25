@@ -1,0 +1,83 @@
+#BigScoreLandingPage-Section3 {
+    width: 100vw;
+    height: 628px;
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+}
+
+.BigScoreLandingPage-Section3-Content-Container {
+    width: 1240px;
+    height: 450px;
+    background: #515252;
+    border-radius: 70px 0px;
+}
+
+.BigScoreLandingPage-Section3-Title {
+    text-align: center;
+    font-family: poppins-800;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 85px;
+}
+
+.BigScoreLandingPage-Section3-Content-SecondRow {
+    margin-top: 49px;
+}
+
+.BigScoreLandingPage-Section3-Content-Left {
+    padding-left: 73px;
+}
+
+.BigScoreLandingPage-Section3-Content-Left-Vector {
+    width: 70px;
+    height: 72.18px;
+}
+
+.BigScoreLandingPage-Section3-Content-Left-Text {
+    margin-top: -10px;
+    font-family: poppins-400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.BigScoreLandingPage-Section3-Content-Right-Vector {
+    width: 70px;
+    height: 56.01px;
+    margin-left: 18px;
+    margin-top: 5px;
+}
+
+.BigScoreLandingPage-Section3-Content-Right-Text {
+    width: 425px;
+    height: 90px;
+    margin-top: -10px;
+    font-family: poppins-400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 1440px) {
+    .BigScoreLandingPage-Section3-Content-Container {
+        transform: scale(0.9);
+    }
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1300px) {
+    .BigScoreLandingPage-Section3-Content-Container {
+        transform: scale(0.8);
+    }
+}
+
+@media screen and (max-width: 1150px) {
+}
+
+@media screen and (max-width: 1100px) {
+}

@@ -1,0 +1,57 @@
+#BigScoreLandingPage-Section10 {
+    width: 100vw;
+    height: 500px;
+    position: relative;
+}
+
+.BigScoreLandingPage-Section10-Title {
+    font-family: poppins-800;
+    font-size: 50px;
+    line-height: 75px;
+    text-align: center;
+    color: #515252;
+    margin-top: 75px;
+}
+
+.BigScoreLandingPage-Section10-Button-Container {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.BigScoreLandingPage-Section10-Button {
+    width: 150px;
+    height: 60px;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+    font-family: poppins-700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.BigScoreLandingPage-Section10-ButtonFreeTrial {
+    background-color: #f06522;
+    border: 1px solid transparent;
+    color: white;
+}
+
+.BigScoreLandingPage-Section10-ButtonFreeTrial:hover {
+    color: #f06522;
+    border: 1px solid #f06522;
+    background-color: white;
+}
+
+.BigScoreLandingPage-Section10-ButtonContactUs {
+    margin-left: 10px;
+    color: #f06522;
+    border: 1px solid #f06522;
+    background-color: white;
+}
+
+.BigScoreLandingPage-Section10-ButtonContactUs:hover {
+    background-color: #f06522;
+    border: 1px solid transparent;
+    color: white;
+}

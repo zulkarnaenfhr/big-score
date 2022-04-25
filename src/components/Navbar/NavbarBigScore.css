@@ -1,0 +1,210 @@
+#NavbarBigScore {
+    height: 100px;
+    width: 100vw;
+    background-color: white;
+    box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.12);
+}
+
+.BigScoreNavbarLogo-container {
+    padding-left: 135px;
+}
+
+.BigScoreNavbarLogo {
+    width: 166px;
+    height: 70px;
+}
+
+.BigScoreNavbarMenu-container {
+    margin-left: 60.33px;
+    margin-top: 20px;
+}
+
+.BigScoreNavbarMenu {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: poppins-500;
+    line-height: 21px;
+}
+
+.BigScoreNavbarMenu:hover {
+    color: #f06522;
+}
+
+.BigScoreNavbarMenuScroll {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: poppins-500;
+    line-height: 21px;
+}
+
+.BigScoreNavbarMenuPartnership {
+    margin-left: 40px;
+}
+
+.BigScoreMenuDropdown {
+    margin-top: -2px;
+}
+
+.BigScoreMenuResources {
+    margin-left: 40px;
+}
+
+.BigScoreNavbarDropdownResources-container {
+    width: 180px;
+    height: 135px;
+    background: #ffffff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    position: relative;
+}
+
+.BigScoreDropdown-menu-Resources-Container {
+    width: 100%;
+    height: 35px;
+    background-color: white;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+.BigScoreDropdown-menu-Resources-Container:hover {
+    background-color: #f06522;
+}
+
+.BigScoreDropdown-menu-Resources {
+    color: black;
+    font-family: poppins-400;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.BigScoreDropdown-menu-Resources:hover {
+    color: white;
+}
+
+.BigScoreMenuCompany {
+    margin-left: 40px;
+}
+
+.BigScoreNavbarDropdownCompany-container {
+    width: 180px;
+    height: 135px;
+    background: #ffffff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    position: relative;
+}
+
+.BigScoreDropdown-menu-Company-Container {
+    width: 100%;
+    height: 35px;
+    background-color: white;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+.BigScoreDropdown-menu-Company-Container:hover {
+    background-color: #f06522;
+}
+
+.BigScoreDropdown-menu-Company {
+    color: black;
+    font-family: poppins-400;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.BigScoreDropdown-menu-Company:hover {
+    color: white;
+}
+
+.BigScoreButton-Container {
+    margin-left: 272px;
+    margin-top: -10px;
+}
+
+.BigScoreButtonNavbar {
+    width: 100px;
+    height: 40px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    font-size: 11px;
+    font-family: poppins-800;
+    transition: all 0.3s ease-in-out;
+}
+
+.BigScoreButtonContactUs {
+    background: white;
+    color: #f06522;
+    border: 1px solid #f06522;
+}
+
+.BigScoreButtonContactUs:hover {
+    background-color: #f06522;
+    color: white;
+}
+
+.BigScoreButtonFreeTrial-container {
+    margin-left: 10px;
+}
+
+.BigScoreButtonFreeTrial {
+    background-color: #f06522;
+    color: white;
+}
+
+.BigScoreButtonFreeTrial:hover {
+    background-color: white;
+    color: #f06522;
+    border: 1px solid #f06522;
+}
+
+.BigScoreButtonDemoApps-container {
+    margin-left: 10px;
+}
+
+.BigScoreButtonDemoApps {
+    background-color: #515252;
+    color: #f06522;
+    border: 1px solid transparent;
+}
+
+.BigScoreButtonDemoApps:hover {
+    background-color: white;
+    color: #f06522;
+    border: 1px solid #515252;
+}
+
+@media screen and (max-width: 1440px) {
+    .BigScoreNavbarLogo-container {
+        padding-left: 100px;
+    }
+    .BigScoreButton-Container {
+        margin-left: 200px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .BigScoreNavbarLogo-container {
+        padding-left: 70px;
+    }
+    .BigScoreButton-Container {
+        margin-left: 180px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .BigScoreNavbarLogo-container {
+        margin-left: 20px;
+    }
+    .BigScoreButton-Container {
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+}
+
+@media screen and (max-width: 1100px) {
+}
