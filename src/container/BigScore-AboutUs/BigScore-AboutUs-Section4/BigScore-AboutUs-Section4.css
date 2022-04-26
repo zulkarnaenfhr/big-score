@@ -14,7 +14,7 @@
 
 @media screen and (max-width: 1440px) {
     .BigScoreAboutUs-Section4-Title {
-        transform: scale(0.9);
+        font-size: calc(0.9 * 90px);
     }
 }
 
@@ -23,11 +23,14 @@
 
 @media screen and (max-width: 1300px) {
     .BigScoreAboutUs-Section4-Title {
-        transform: scale(0.8);
+        font-size: calc(0.8 * 90px);
     }
 }
 
 @media screen and (max-width: 1150px) {
+    .BigScoreAboutUs-Section4-Title {
+        font-size: calc(0.7 * 90px);
+    }
 }
 
 @media screen and (max-width: 1100px) {

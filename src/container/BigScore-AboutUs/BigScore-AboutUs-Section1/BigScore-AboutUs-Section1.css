@@ -92,7 +92,15 @@
 }
 
 @media screen and (max-width: 1150px) {
+    .BigScoreAboutUs-Section1-Container-Content {
+        transform: scale(0.8);
+        top: 130px;
+    }
 }
 
 @media screen and (max-width: 1100px) {
+    .BigScoreAboutUs-Section1-Container-Content {
+        transform: scale(0.75);
+        top: 100px;
+    }
 }
