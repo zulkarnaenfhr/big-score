@@ -107,10 +107,41 @@
 }
 
 @media screen and (max-width: 1300px) {
+    .BigScoreLandingPage-Section6-Content-Container {
+        margin-top: 105px;
+    }
 }
 
 @media screen and (max-width: 1150px) {
+    .BigScoreLandingPage-Section6-Vector {
+        width: calc(0.9 * 600px);
+        height: calc(0.9 * 545.73px);
+    }
+    .BigScoreLandingPage-Section6-Title {
+        left: 580px;
+    }
+    .BigScoreLandingPage-Section6-List-Container {
+        top: 220px;
+        left: 580px;
+    }
+    .BigScoreLandingPage-Section6-Button {
+        left: 580px;
+    }
 }
 
 @media screen and (max-width: 1100px) {
+    .BigScoreLandingPage-Section6-Vector {
+        width: calc(0.8 * 600px);
+        height: calc(0.8 * 545.73px);
+    }
+    .BigScoreLandingPage-Section6-Title {
+        left: 530px;
+    }
+    .BigScoreLandingPage-Section6-List-Container {
+        top: 220px;
+        left: 530px;
+    }
+    .BigScoreLandingPage-Section6-Button {
+        left: 530px;
+    }
 }

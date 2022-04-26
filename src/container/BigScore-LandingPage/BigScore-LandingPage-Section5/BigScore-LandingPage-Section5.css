@@ -62,6 +62,13 @@
 }
 
 @media screen and (max-width: 1150px) {
+    .BigScoreLandingPage-Section5-Title {
+        font-size: 45px;
+    }
+    .BigScoreLandingPage-Section5-Text {
+        font-size: 15px;
+        width: 560px;
+    }
 }
 
 @media screen and (max-width: 1100px) {

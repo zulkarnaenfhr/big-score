@@ -1,0 +1,11 @@
+SPL LandingPage + Navbar Responsive Desktop Done
+
+dont forget to input loading="lazy" on img tag
+
+font always Poppins
+
+font face di import di style.css
+
+cek dulu if yang mau digunakan ada {
+    font-family: poppins-weightnya
+}

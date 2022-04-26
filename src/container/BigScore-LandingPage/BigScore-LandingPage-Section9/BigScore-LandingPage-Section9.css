@@ -33,13 +33,13 @@
     border-radius: 82px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .BigScoreLandingPage-Section9-LogoTelkom {
     position: relative;
     width: 132.97px;
     height: 80px;
-    margin-left: 92px;
 }
 
 .BigScoreLandingPage-Section9-LogoKredivo {
@@ -66,11 +66,28 @@
 @media screen and (max-width: 1300px) {
     .BigScoreLandingPage-Section9-Content-Container {
         transform: scale(0.8);
+        display: flex;
+        justify-content: center;
+    }
+    .BigScoreLandingPage-Section9-Content-Container-Logo-Container {
+        left: 180px;
     }
 }
 
 @media screen and (max-width: 1150px) {
+    .BigScoreLandingPage-Section9-Content-Container-Logo-Container {
+        left: 110px;
+    }
+    .BigScoreLandingPage-Section9-LogoFinneos {
+        margin-left: 40px;
+    }
+    .BigScoreLandingPage-Section9-LogoKredivo {
+        margin-left: 40px;
+    }
 }
 
 @media screen and (max-width: 1100px) {
+    .BigScoreLandingPage-Section9-Content-Container-Logo-Container {
+        left: 65px;
+    }
 }

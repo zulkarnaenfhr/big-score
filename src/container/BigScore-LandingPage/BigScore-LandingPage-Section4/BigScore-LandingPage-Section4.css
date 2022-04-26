@@ -76,6 +76,9 @@
 }
 
 @media screen and (max-width: 1400px) {
+    .BigScoreLandingPage-Section4-Text-Container {
+        left: 20px;
+    }
 }
 
 @media screen and (max-width: 1300px) {
@@ -85,6 +88,13 @@
 }
 
 @media screen and (max-width: 1150px) {
+    .BigScoreLandingPage-Section4-Text-Container {
+        left: 60px;
+    }
+    .BigScoreLandingPage-Section4-Vector {
+        width: calc(0.9 * 600px);
+        height: calc(0.9 * 466.62px);
+    }
 }
 
 @media screen and (max-width: 1100px) {
