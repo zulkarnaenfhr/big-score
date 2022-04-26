@@ -130,6 +130,9 @@
     #BigScore-ContactUs-Section1 {
         padding-left: 70px;
     }
+    .BigScore-ContactUs-Section1-Content-Container {
+        margin-top: 40px;
+    }
     .BigScore-ContactUs-Section1-Form-Container {
         transform: scale(0.85);
     }
