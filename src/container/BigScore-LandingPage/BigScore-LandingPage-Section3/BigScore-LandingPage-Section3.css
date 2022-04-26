@@ -77,7 +77,22 @@
 }
 
 @media screen and (max-width: 1150px) {
+    .BigScoreLandingPage-Section3-Content-Left {
+        padding-left: 40px;
+    }
+    .BigScoreLandingPage-Section3-Content-Right-Vector {
+        margin-left: 5px;
+    }
 }
 
 @media screen and (max-width: 1100px) {
+    .BigScoreLandingPage-Section3-Content-Left {
+        padding-left: 40px;
+    }
+    .BigScoreLandingPage-Section3-Content-Right-Vector {
+        margin-left: 0px;
+    }
+    .BigScoreLandingPage-Section3-Content-Right-Text {
+        width: 90%;
+    }
 }
