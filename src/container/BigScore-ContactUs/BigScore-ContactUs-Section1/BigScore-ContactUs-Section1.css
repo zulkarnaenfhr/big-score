@@ -114,8 +114,44 @@
     margin-left: 3px;
 }
 
+@media screen and (max-width: 1440px) {
+    #BigScore-ContactUs-Section1 {
+        padding-left: 110px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    #BigScore-ContactUs-Section1 {
+        padding-left: 70px;
+    }
+}
+
 @media screen and (max-width: 1300px) {
     #BigScore-ContactUs-Section1 {
-        padding-left: 40px;
+        padding-left: 70px;
+    }
+    .BigScore-ContactUs-Section1-Form-Container {
+        transform: scale(0.85);
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    #BigScore-ContactUs-Section1 {
+        padding-left: 30px;
+    }
+    .BigScore-ContactUs-Section1-Form-Container {
+        transform: scale(0.8);
+        position: relative;
+        top: 70px;
+        right: 70px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .BigScore-ContactUs-Section1-Form-Container {
+        transform: scale(0.7);
+        position: relative;
+        top: 30px;
+        right: 70px;
     }
 }
