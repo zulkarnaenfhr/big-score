@@ -31,6 +31,14 @@ class BigscoreRouter extends Component {
                     <Route path="/big-score/press" exact element={<BigscorePress />} />
                     <Route path="/big-score/register" exact element={<BigScoreRegister />} />
                     <Route path="/big-score/support" exact element={<BigscoreSupport />} />
+                    <Route
+                        path="*"
+                        element={
+                            <div id="notfound-page-container">
+                                <p>Page Not Found</p>
+                            </div>
+                        }
+                    />{" "}
                 </Routes>
             </div>
         );

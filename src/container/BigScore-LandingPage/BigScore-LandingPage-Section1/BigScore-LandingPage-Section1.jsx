@@ -6,7 +6,9 @@ class BigscoreLandingpageSection1 extends Component {
     render() {
         return (
             <div id="BigScoreLandingPage-Section1">
-                <img data-aos="fade-left" data-aos-offset="100" src={require("../../../src/Big-Score/LandingPage/Section1-Vector.png")} className={"BigScoreLandingPage-Section1-Vector"} />
+                <div className="BigScoreLandingPage-Section1-Vector-Container">
+                    <img data-aos="fade-left" data-aos-offset="100" src={require("../../../src/Big-Score/LandingPage/Section1-Vector.png")} className={"BigScoreLandingPage-Section1-Vector"} />
+                </div>
                 <div className="BigScoreLandingPage-Section1-Title-Container">
                     <h1 className="BigScoreLandingPage-Section1-Title1" data-aos="fade-down-right" data-aos-offset="100">
                         Big Score

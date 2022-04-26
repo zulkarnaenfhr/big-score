@@ -53,6 +53,7 @@
     text-align: center;
     color: #ffffff;
     transition: all 0.3s ease-in-out;
+    letter-spacing: 0.5px;
 }
 
 .BigScoreLandingPage-Section1-Button:hover {
@@ -62,24 +63,60 @@
 }
 
 @media screen and (max-width: 1440px) {
+    .BigScoreLandingPage-Section1-Title-Container {
+        left: 120px;
+    }
+    .BigScoreLandingPage-Section1-Button-Container {
+        left: 120px;
+    }
     .BigScoreLandingPage-Section1-Vector {
-        transform: scale(0.9);
-        left: 743px;
+        left: 733px;
     }
 }
 
 @media screen and (max-width: 1400px) {
+    .BigScoreLandingPage-Section1-Vector {
+        position: relative;
+        left: 653px;
+    }
 }
 
 @media screen and (max-width: 1300px) {
     .BigScoreLandingPage-Section1-Vector {
-        transform: scale(0.8);
         left: 613px;
+    }
+    .BigScoreLandingPage-Section1-Vector-Container {
+        transform: scale(0.9);
+    }
+}
+
+@media screen and (max-width: 1300px) and (max-height: 810px) {
+    .BigScoreLandingPage-Section1-Vector {
+        top: 170px;
     }
 }
 
 @media screen and (max-width: 1150px) {
+    .BigScoreLandingPage-Section1-Title-Container {
+        left: 80px;
+    }
+    .BigScoreLandingPage-Section1-Button-Container {
+        left: 80px;
+    }
+    .BigScoreLandingPage-Section1-Vector-Container {
+        transform: scale(0.8);
+    }
+    .BigScoreLandingPage-Section1-Vector {
+        left: 570px;
+    }
 }
 
 @media screen and (max-width: 1100px) {
+    .BigScoreLandingPage-Section1-Vector-Container {
+        transform: scale(0.75);
+    }
+    .BigScoreLandingPage-Section1-Vector {
+        left: 520px;
+        top: 200px;
+    }
 }
